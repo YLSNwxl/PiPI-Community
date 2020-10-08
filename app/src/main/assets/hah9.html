@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+         function showAlert(){
+        var str=window.AndroidMessage.getMsg();
+        document.getElementById("video").src=str;
+        }
+    </script>
+</head>
+<body>
+<video poster="drawable/bg.png" id="video" controls="controls"  style="height: 1300px;width:100%;margin: 0px;padding: 0px;">
+    <source src="http://118.89.236.56:5000/api/Uploadvideo/file?Vid=51">
+</video>
+</body>
+</html>

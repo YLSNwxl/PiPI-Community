@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.ylsn.unimportant.UpFileActivity">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200sp"
+       android:src="@drawable/person1"/>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </WebView>
+
+</LinearLayout>
